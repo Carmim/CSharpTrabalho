@@ -1,0 +1,14 @@
+D:\Codigos\C# vs studio\4Periodo\AulaCSharp\AulasPOO\bin\Debug\net8.0\AulasPOO.exe
+D:\Codigos\C# vs studio\4Periodo\AulaCSharp\AulasPOO\bin\Debug\net8.0\AulasPOO.deps.json
+D:\Codigos\C# vs studio\4Periodo\AulaCSharp\AulasPOO\bin\Debug\net8.0\AulasPOO.runtimeconfig.json
+D:\Codigos\C# vs studio\4Periodo\AulaCSharp\AulasPOO\bin\Debug\net8.0\AulasPOO.dll
+D:\Codigos\C# vs studio\4Periodo\AulaCSharp\AulasPOO\bin\Debug\net8.0\AulasPOO.pdb
+D:\Codigos\C# vs studio\4Periodo\AulaCSharp\AulasPOO\obj\Debug\net8.0\AulasPOO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codigos\C# vs studio\4Periodo\AulaCSharp\AulasPOO\obj\Debug\net8.0\AulasPOO.AssemblyInfoInputs.cache
+D:\Codigos\C# vs studio\4Periodo\AulaCSharp\AulasPOO\obj\Debug\net8.0\AulasPOO.AssemblyInfo.cs
+D:\Codigos\C# vs studio\4Periodo\AulaCSharp\AulasPOO\obj\Debug\net8.0\AulasPOO.csproj.CoreCompileInputs.cache
+D:\Codigos\C# vs studio\4Periodo\AulaCSharp\AulasPOO\obj\Debug\net8.0\AulasPOO.dll
+D:\Codigos\C# vs studio\4Periodo\AulaCSharp\AulasPOO\obj\Debug\net8.0\refint\AulasPOO.dll
+D:\Codigos\C# vs studio\4Periodo\AulaCSharp\AulasPOO\obj\Debug\net8.0\AulasPOO.pdb
+D:\Codigos\C# vs studio\4Periodo\AulaCSharp\AulasPOO\obj\Debug\net8.0\AulasPOO.genruntimeconfig.cache
+D:\Codigos\C# vs studio\4Periodo\AulaCSharp\AulasPOO\obj\Debug\net8.0\ref\AulasPOO.dll

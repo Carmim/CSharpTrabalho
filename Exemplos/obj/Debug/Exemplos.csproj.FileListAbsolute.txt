@@ -1,0 +1,21 @@
+D:\C#\1-Aula 06-08-2024\AulaCSharp\Exemplos\bin\Debug\Exemplos.exe.config
+D:\C#\1-Aula 06-08-2024\AulaCSharp\Exemplos\bin\Debug\Exemplos.exe
+D:\C#\1-Aula 06-08-2024\AulaCSharp\Exemplos\bin\Debug\Exemplos.pdb
+D:\C#\1-Aula 06-08-2024\AulaCSharp\Exemplos\obj\Debug\Exemplos.csproj.AssemblyReference.cache
+D:\C#\1-Aula 06-08-2024\AulaCSharp\Exemplos\obj\Debug\Exemplos.csproj.CoreCompileInputs.cache
+D:\C#\1-Aula 06-08-2024\AulaCSharp\Exemplos\obj\Debug\Exemplos.exe
+D:\C#\1-Aula 06-08-2024\AulaCSharp\Exemplos\obj\Debug\Exemplos.pdb
+C:\Users\gabri\AulaCSharp\Exemplos\bin\Debug\Exemplos.exe.config
+C:\Users\gabri\AulaCSharp\Exemplos\bin\Debug\Exemplos.exe
+C:\Users\gabri\AulaCSharp\Exemplos\bin\Debug\Exemplos.pdb
+C:\Users\gabri\AulaCSharp\Exemplos\obj\Debug\Exemplos.csproj.AssemblyReference.cache
+C:\Users\gabri\AulaCSharp\Exemplos\obj\Debug\Exemplos.csproj.CoreCompileInputs.cache
+C:\Users\gabri\AulaCSharp\Exemplos\obj\Debug\Exemplos.exe
+C:\Users\gabri\AulaCSharp\Exemplos\obj\Debug\Exemplos.pdb
+D:\Codigos\C# vs studio\4Periodo\AulaCSharp\Exemplos\bin\Debug\Exemplos.exe.config
+D:\Codigos\C# vs studio\4Periodo\AulaCSharp\Exemplos\bin\Debug\Exemplos.exe
+D:\Codigos\C# vs studio\4Periodo\AulaCSharp\Exemplos\bin\Debug\Exemplos.pdb
+D:\Codigos\C# vs studio\4Periodo\AulaCSharp\Exemplos\obj\Debug\Exemplos.csproj.AssemblyReference.cache
+D:\Codigos\C# vs studio\4Periodo\AulaCSharp\Exemplos\obj\Debug\Exemplos.csproj.CoreCompileInputs.cache
+D:\Codigos\C# vs studio\4Periodo\AulaCSharp\Exemplos\obj\Debug\Exemplos.exe
+D:\Codigos\C# vs studio\4Periodo\AulaCSharp\Exemplos\obj\Debug\Exemplos.pdb
