@@ -7,6 +7,8 @@ do
     Console.WriteLine("1) Somar");
     Console.WriteLine("2) Multiplicar");
     Console.WriteLine("3) Fatorial");
+    Console.WriteLine("4) Subtrair");
+    Console.WriteLine("5) Dividir");
     Console.WriteLine("0) Sair");
     opcao = Convert.ToInt32(Console.ReadLine());
 
@@ -29,6 +31,17 @@ do
             Console.WriteLine("Entre com o numero: ");
             num3 = int.Parse(Console.ReadLine());
             Console.WriteLine($"O resultado do fatorial de {num3} é {Calculadora.Fatorial(num3)}");
+            break;
+        case 4:
+            LerDoisNumerosInteiros();
+            var calc2 = new Calculadora();
+            int resultado2 = calc2.Subtrair(num1 ,num2);
+            Console.WriteLine($"O resultado da subtração de {num1} por {num2} é {resultado2}");
+            break;
+        case 5:
+            LerDoisNumerosInteiros();
+            var (result, resto) = Calculadora.Divide(num1, num2);
+            Console.WriteLine($"O resultado da divisão de {num1} por {num2} é {result} e o resto que sobrou é {resto} ");
             break;
         default:
             Console.WriteLine("Opção Inválida");

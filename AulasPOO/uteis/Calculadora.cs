@@ -12,6 +12,10 @@ namespace AulasPOO.uteis
         {
             return  num1 + num2;
         }
+        public int Subtrair(int num1, int num2)
+        {
+            return num1 - num2;
+        }
         public  static int Multiplica(int num1, int num2)
         {
             return num1 * num2;
@@ -23,6 +27,12 @@ namespace AulasPOO.uteis
                 return 1;
             }
             return num1 * Fatorial(num1 - 1);
+        }
+        public static (int resultado, int resto) Divide(int num1, int num2)
+        {
+            int result = num1 / num2;
+            int resto = num1 % num2;
+            return (result, resto); 
         }
     }
 }
