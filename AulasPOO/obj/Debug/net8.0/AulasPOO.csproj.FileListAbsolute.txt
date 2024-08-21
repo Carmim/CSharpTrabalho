@@ -27,3 +27,18 @@ C:\Users\gabri\C# aula\AulaCSharp\AulasPOO\obj\Debug\net8.0\refint\AulasPOO.dll
 C:\Users\gabri\C# aula\AulaCSharp\AulasPOO\obj\Debug\net8.0\AulasPOO.pdb
 C:\Users\gabri\C# aula\AulaCSharp\AulasPOO\obj\Debug\net8.0\AulasPOO.genruntimeconfig.cache
 C:\Users\gabri\C# aula\AulaCSharp\AulasPOO\obj\Debug\net8.0\ref\AulasPOO.dll
+C:\Users\2023121890\Source\Repos\AulaCSharp\AulasPOO\bin\Debug\net8.0\AulasPOO.exe
+C:\Users\2023121890\Source\Repos\AulaCSharp\AulasPOO\bin\Debug\net8.0\AulasPOO.deps.json
+C:\Users\2023121890\Source\Repos\AulaCSharp\AulasPOO\bin\Debug\net8.0\AulasPOO.runtimeconfig.json
+C:\Users\2023121890\Source\Repos\AulaCSharp\AulasPOO\bin\Debug\net8.0\AulasPOO.dll
+C:\Users\2023121890\Source\Repos\AulaCSharp\AulasPOO\bin\Debug\net8.0\AulasPOO.pdb
+C:\Users\2023121890\Source\Repos\AulaCSharp\AulasPOO\obj\Debug\net8.0\AulasPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2023121890\Source\Repos\AulaCSharp\AulasPOO\obj\Debug\net8.0\AulasPOO.AssemblyInfoInputs.cache
+C:\Users\2023121890\Source\Repos\AulaCSharp\AulasPOO\obj\Debug\net8.0\AulasPOO.AssemblyInfo.cs
+C:\Users\2023121890\Source\Repos\AulaCSharp\AulasPOO\obj\Debug\net8.0\AulasPOO.csproj.CoreCompileInputs.cache
+C:\Users\2023121890\Source\Repos\AulaCSharp\AulasPOO\obj\Debug\net8.0\AulasPOO.sourcelink.json
+C:\Users\2023121890\Source\Repos\AulaCSharp\AulasPOO\obj\Debug\net8.0\AulasPOO.dll
+C:\Users\2023121890\Source\Repos\AulaCSharp\AulasPOO\obj\Debug\net8.0\refint\AulasPOO.dll
+C:\Users\2023121890\Source\Repos\AulaCSharp\AulasPOO\obj\Debug\net8.0\AulasPOO.pdb
+C:\Users\2023121890\Source\Repos\AulaCSharp\AulasPOO\obj\Debug\net8.0\AulasPOO.genruntimeconfig.cache
+C:\Users\2023121890\Source\Repos\AulaCSharp\AulasPOO\obj\Debug\net8.0\ref\AulasPOO.dll

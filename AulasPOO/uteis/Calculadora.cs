@@ -34,5 +34,9 @@ namespace AulasPOO.uteis
             int resto = num1 % num2;
             return (result, resto); 
         }
+        public static float IMC(float peso,float altura)
+        {
+            return  peso/(altura * altura);
+        }
     }
 }
