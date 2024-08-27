@@ -19,3 +19,10 @@ D:\Codigos\C# vs studio\4Periodo\AulaCSharp\Exemplos\obj\Debug\Exemplos.csproj.A
 D:\Codigos\C# vs studio\4Periodo\AulaCSharp\Exemplos\obj\Debug\Exemplos.csproj.CoreCompileInputs.cache
 D:\Codigos\C# vs studio\4Periodo\AulaCSharp\Exemplos\obj\Debug\Exemplos.exe
 D:\Codigos\C# vs studio\4Periodo\AulaCSharp\Exemplos\obj\Debug\Exemplos.pdb
+C:\Users\gabri\Source\Repos\AulaCSharp\Exemplos\bin\Debug\Exemplos.exe.config
+C:\Users\gabri\Source\Repos\AulaCSharp\Exemplos\bin\Debug\Exemplos.exe
+C:\Users\gabri\Source\Repos\AulaCSharp\Exemplos\bin\Debug\Exemplos.pdb
+C:\Users\gabri\Source\Repos\AulaCSharp\Exemplos\obj\Debug\Exemplos.csproj.AssemblyReference.cache
+C:\Users\gabri\Source\Repos\AulaCSharp\Exemplos\obj\Debug\Exemplos.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Source\Repos\AulaCSharp\Exemplos\obj\Debug\Exemplos.exe
+C:\Users\gabri\Source\Repos\AulaCSharp\Exemplos\obj\Debug\Exemplos.pdb

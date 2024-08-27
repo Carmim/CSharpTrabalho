@@ -40,7 +40,7 @@ do
             break;
         case 5:
             LerDoisNumerosInteiros();
-            var (result, resto) = Calculadora.Divide(num1, num2);
+            var (result, resto) = Calculadora.Dividir(num1, num2);
             Console.WriteLine($"O resultado da divisão de {num1} por {num2} é {result} e o resto que sobrou é {resto} ");
             break;
         default:

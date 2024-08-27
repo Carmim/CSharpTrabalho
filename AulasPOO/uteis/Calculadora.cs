@@ -28,11 +28,11 @@ namespace AulasPOO.uteis
             }
             return num1 * Fatorial(num1 - 1);
         }
-        public static (int resultado, int resto) Divide(int num1, int num2)
+        public static (int resultado, int resto) Dividir(int num1, int num2)
         {
-            int result = num1 / num2;
+            int resultado = num1 / num2;
             int resto = num1 % num2;
-            return (result, resto); 
+            return (resultado, resto); 
         }
         public static float IMC(float peso,float altura)
         {

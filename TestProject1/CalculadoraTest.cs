@@ -43,5 +43,34 @@ namespace TestProject1
             //teste
             Assert.AreEqual(27.01, imc, Math.Round(imc,2));
         }
+        [TestMethod]
+        public void SubtrairTest()
+        {
+            //cenario
+            var calc = new Calculadora();
+            int num1 = 10;
+            int num2 = 5;
+            int resultado;
+            //ação
+            resultado = calc.Subtrair(num1,num2);
+            //teste
+            Assert.AreEqual(5,resultado );
+        }
+        [TestMethod]
+        public void DividirTest()
+        {
+            //cenario
+            var calc = new Calculadora();
+            var resultadoEsperado = 20 / 2;
+            var restoEsperado = 20 % 2;
+            int num1 = 20;
+            int num2 = 2;
+
+            //ação
+            var (resultado, resto) = Calculadora.Dividir(num1, num2);
+            //teste
+            Assert.AreEqual(resultadoEsperado, resultado);
+            Assert.AreEqual(restoEsperado, resto);
+        }
     }
 }
