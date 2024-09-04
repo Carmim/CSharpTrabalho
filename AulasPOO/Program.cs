@@ -1,6 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AulasPOO.uteis;
+using System.Globalization;
 int opcao = 0, num1, num2, num3;
+decimal precoOriginal, desconto, resultadoDesconto;
+
 do
 {
     Console.WriteLine("Escolha uma opção: ");
@@ -9,6 +12,7 @@ do
     Console.WriteLine("3) Fatorial");
     Console.WriteLine("4) Subtrair");
     Console.WriteLine("5) Dividir");
+    Console.WriteLine("6) Calcular desconto");
     Console.WriteLine("0) Sair");
     opcao = Convert.ToInt32(Console.ReadLine());
 
@@ -42,6 +46,16 @@ do
             LerDoisNumerosInteiros();
             var (result, resto) = Calculadora.Dividir(num1, num2);
             Console.WriteLine($"O resultado da divisão de {num1} por {num2} é {result} e o resto que sobrou é {resto} ");
+            break;
+        case 6:
+            var des = new Desconto();
+            Console.WriteLine("Entre com o preço do produto: ");
+            precoOriginal = decimal.Parse(Console.ReadLine(),CultureInfo.CurrentCulture);
+            Console.WriteLine("Entre com o desconto: ");
+            desconto = decimal.Parse(Console.ReadLine(),CultureInfo.CurrentCulture);
+            resultadoDesconto = des.calculaDesconto(precoOriginal, desconto);
+            resultadoDesconto = Math.Round(resultadoDesconto, 2);
+            Console.WriteLine($"O produto com preço R${precoOriginal} passou a valer R${resultadoDesconto} com o desconto de {desconto}%. ");
             break;
         default:
             Console.WriteLine("Opção Inválida");

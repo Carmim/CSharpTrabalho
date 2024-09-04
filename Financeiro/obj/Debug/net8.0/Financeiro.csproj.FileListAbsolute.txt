@@ -1,0 +1,15 @@
+C:\Users\gabri\source\repos\AulaCSharp\Financeiro\bin\Debug\net8.0\Financeiro.exe
+C:\Users\gabri\source\repos\AulaCSharp\Financeiro\bin\Debug\net8.0\Financeiro.deps.json
+C:\Users\gabri\source\repos\AulaCSharp\Financeiro\bin\Debug\net8.0\Financeiro.runtimeconfig.json
+C:\Users\gabri\source\repos\AulaCSharp\Financeiro\bin\Debug\net8.0\Financeiro.dll
+C:\Users\gabri\source\repos\AulaCSharp\Financeiro\bin\Debug\net8.0\Financeiro.pdb
+C:\Users\gabri\source\repos\AulaCSharp\Financeiro\obj\Debug\net8.0\Financeiro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\source\repos\AulaCSharp\Financeiro\obj\Debug\net8.0\Financeiro.AssemblyInfoInputs.cache
+C:\Users\gabri\source\repos\AulaCSharp\Financeiro\obj\Debug\net8.0\Financeiro.AssemblyInfo.cs
+C:\Users\gabri\source\repos\AulaCSharp\Financeiro\obj\Debug\net8.0\Financeiro.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\AulaCSharp\Financeiro\obj\Debug\net8.0\Financeiro.sourcelink.json
+C:\Users\gabri\source\repos\AulaCSharp\Financeiro\obj\Debug\net8.0\Financeiro.dll
+C:\Users\gabri\source\repos\AulaCSharp\Financeiro\obj\Debug\net8.0\refint\Financeiro.dll
+C:\Users\gabri\source\repos\AulaCSharp\Financeiro\obj\Debug\net8.0\Financeiro.pdb
+C:\Users\gabri\source\repos\AulaCSharp\Financeiro\obj\Debug\net8.0\Financeiro.genruntimeconfig.cache
+C:\Users\gabri\source\repos\AulaCSharp\Financeiro\obj\Debug\net8.0\ref\Financeiro.dll
