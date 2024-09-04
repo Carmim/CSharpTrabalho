@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AulasPOO", "AulasPOO\AulasP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "TestProject1\TestProject1.csproj", "{D5A57425-DFFD-42E7-8FEF-0E7BC3A3EA60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financeiro", "Financeiro\Financeiro.csproj", "{41C61BBF-7C52-4AEA-ADF3-2127CD1F990F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Financeiro", "Financeiro\Financeiro.csproj", "{41C61BBF-7C52-4AEA-ADF3-2127CD1F990F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTrabalho", "TestTrabalho\TestTrabalho.csproj", "{35AF12C9-7EB2-498A-BB97-3E9C209C30F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTrabalho", "TestTrabalho\TestTrabalho.csproj", "{35AF12C9-7EB2-498A-BB97-3E9C209C30F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jogo-da-velha", "jogo-da-velha\jogo-da-velha.csproj", "{BDB0A3D3-B038-493B-822F-262278F997D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{35AF12C9-7EB2-498A-BB97-3E9C209C30F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35AF12C9-7EB2-498A-BB97-3E9C209C30F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35AF12C9-7EB2-498A-BB97-3E9C209C30F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB0A3D3-B038-493B-822F-262278F997D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB0A3D3-B038-493B-822F-262278F997D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB0A3D3-B038-493B-822F-262278F997D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB0A3D3-B038-493B-822F-262278F997D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
