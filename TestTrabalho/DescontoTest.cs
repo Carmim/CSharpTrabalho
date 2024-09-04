@@ -17,7 +17,7 @@ namespace TestTrabalho
             //ação
             resultado = desc.calculaDesconto(precoNormal,desconto);
             //teste
-            Assert.AreEqual(resultadoEsperado, resultado, Math.Round(resultado, 2),"Calculo do desconto está incorreto");
+            Assert.AreEqual(resultadoEsperado, Math.Round(resultado, 2), "Calculo do desconto está incorreto");
         }
         [TestMethod]
         public void Calcular0DeDesconto()
@@ -31,7 +31,7 @@ namespace TestTrabalho
             //ação
             resultado = desc.calculaDesconto(precoNormal, desconto);
             //teste
-            Assert.AreEqual(resultadoEsperado, resultado,"Não tem como ter desconto de 0%");
+            Assert.AreEqual(resultadoEsperado, resultado, "Calculo do desconto está incorreto");
         }
         [TestMethod]
         public void CalcularDescontoNegativo()
@@ -41,7 +41,7 @@ namespace TestTrabalho
             decimal precoNormal = 100;
             decimal desconto = -10;
             //ação e teste
-            Assert.ThrowsException<ArgumentException>(() => desc.calculaDesconto(precoNormal,desconto), "Não é possivel ter desconto negativo");
+            Assert.ThrowsException<ArgumentException>(() => desc.calculaDesconto(precoNormal,desconto));
         }
     }
 }

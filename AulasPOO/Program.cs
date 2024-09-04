@@ -55,6 +55,11 @@ do
             desconto = decimal.Parse(Console.ReadLine(),CultureInfo.CurrentCulture);
             resultadoDesconto = des.calculaDesconto(precoOriginal, desconto);
             resultadoDesconto = Math.Round(resultadoDesconto, 2);
+            if (resultadoDesconto == precoOriginal)
+            {
+                Console.WriteLine($"Com o desconto de {desconto}%, o valor do produto não sofreu alterações");
+                break;
+            }
             Console.WriteLine($"O produto com preço R${precoOriginal} passou a valer R${resultadoDesconto} com o desconto de {desconto}%. ");
             break;
         default:

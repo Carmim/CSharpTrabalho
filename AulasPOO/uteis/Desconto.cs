@@ -15,7 +15,6 @@ namespace AulasPOO.uteis
                 throw new ArgumentException("Não existe desconto negativo");
             }
             
-            
             //Valor do Desconto = Preço Original x (Porcentagem de Desconto / 100)
             return precoNormal - (precoNormal * (desconto / 100) );
         }
