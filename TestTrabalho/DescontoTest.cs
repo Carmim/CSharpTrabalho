@@ -11,7 +11,7 @@ namespace TestTrabalho
             //cenario
             var desc = new Desconto();
             decimal precoNormal = 1299.90M;
-            decimal desconto = 26;
+            decimal desconto = 26M;
             decimal resultadoEsperado = 961.93M;
             decimal resultado;
             //ação
@@ -24,9 +24,9 @@ namespace TestTrabalho
         {
             //cenario
             var desc = new Desconto();
-            decimal precoNormal = 100;
-            decimal desconto = 0;
-            decimal resultadoEsperado = 100;
+            decimal precoNormal = 100M;
+            decimal desconto = 0M;
+            decimal resultadoEsperado = 100M;
             decimal resultado;
             //ação
             resultado = desc.calculaDesconto(precoNormal, desconto);
@@ -38,10 +38,20 @@ namespace TestTrabalho
         {
             //cenario
             var desc = new Desconto();
-            decimal precoNormal = 100;
-            decimal desconto = -10;
+            decimal precoNormal = 100M;
+            decimal desconto = -10M;
             //ação e teste
             Assert.ThrowsException<ArgumentException>(() => desc.calculaDesconto(precoNormal,desconto));
+        }
+        [TestMethod]
+        public void CalcularPrecoProdutoNegativo()
+        {
+            //cenario
+            var desc = new Desconto();
+            decimal precoNormal = -100M;
+            decimal desconto = 10M;
+            //ação e teste
+            Assert.ThrowsException<ArgumentException>(() => desc.calculaDesconto(precoNormal, desconto));
         }
     }
 }

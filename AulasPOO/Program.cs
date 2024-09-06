@@ -48,20 +48,29 @@ do
             Console.WriteLine($"O resultado da divisão de {num1} por {num2} é {result} e o resto que sobrou é {resto} ");
             break;
         case 6:
-            var des = new Desconto();
-            Console.WriteLine("Entre com o preço do produto: ");
-            precoOriginal = decimal.Parse(Console.ReadLine(),CultureInfo.CurrentCulture);
-            Console.WriteLine("Entre com o desconto: ");
-            desconto = decimal.Parse(Console.ReadLine(),CultureInfo.CurrentCulture);
-            resultadoDesconto = des.calculaDesconto(precoOriginal, desconto);
-            resultadoDesconto = Math.Round(resultadoDesconto, 2);
-            if (resultadoDesconto == precoOriginal)
+            try
             {
-                Console.WriteLine($"Com o desconto de {desconto}%, o valor do produto não sofreu alterações");
-                break;
+                var des = new Desconto();
+                Console.WriteLine("Entre com o preço do produto: ");
+                precoOriginal = decimal.Parse(Console.ReadLine(),CultureInfo.CurrentCulture);
+                Console.WriteLine("Entre com o desconto: ");
+                desconto = decimal.Parse(Console.ReadLine(),CultureInfo.CurrentCulture);
+                resultadoDesconto = des.calculaDesconto(precoOriginal, desconto);
+                resultadoDesconto = Math.Round(resultadoDesconto, 2);
+                if (resultadoDesconto == precoOriginal)
+                {
+                    Console.WriteLine($"Com o desconto de {desconto}%, o valor do produto não sofreu alterações");
+                    break;
+                }
+                Console.WriteLine($"O produto com preço R${precoOriginal} passou a valer R${resultadoDesconto} com o desconto de {desconto}%. ");
             }
-            Console.WriteLine($"O produto com preço R${precoOriginal} passou a valer R${resultadoDesconto} com o desconto de {desconto}%. ");
+
+            catch (ArgumentException ex)
+            {
+                Console.WriteLine($"Erro: {ex.Message}");
+            }
             break;
+
         default:
             Console.WriteLine("Opção Inválida");
             break;

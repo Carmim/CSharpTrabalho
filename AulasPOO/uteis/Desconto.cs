@@ -12,9 +12,13 @@ namespace AulasPOO.uteis
         {
             if (desconto < 0)
             {
-                throw new ArgumentException("Não existe desconto negativo");
+                throw new ArgumentException("Não é possivel usar deconto negativo");
             }
-            
+            else if (precoNormal < 0)
+            {
+                throw new ArgumentException("O produto não pode ter preço negativo");
+            }
+
             //Valor do Desconto = Preço Original x (Porcentagem de Desconto / 100)
             return precoNormal - (precoNormal * (desconto / 100) );
         }
