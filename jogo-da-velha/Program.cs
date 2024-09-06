@@ -10,6 +10,7 @@ bool rodando = true;
 
 while (rodando)
 {
+    Console.Clear();
     Console.WriteLine(JogoVelha.MostrarTabuleiro(tabuleiro)); 
     char simbolo;
     int linha = 0, coluna = 0, escolha;
@@ -67,6 +68,7 @@ while (rodando)
         tabuleiro[linha, coluna] = simbolo;
         if (JogoVelha.VerificaVencedor(tabuleiro, jogadorAtual) == true)
         {
+            Console.Clear();
             Console.WriteLine(JogoVelha.MostrarTabuleiro(tabuleiro));
             Console.WriteLine($"O jogador número {jogadorAtual} venceu!");
             rodando = false;
@@ -75,8 +77,9 @@ while (rodando)
         {
             if (JogoVelha.verificaEmpate(tabuleiro))
             {
+                Console.Clear();
                 Console.WriteLine(JogoVelha.MostrarTabuleiro(tabuleiro));
-                Console.WriteLine($"O jogador número {jogadorAtual} venceu!");
+                Console.WriteLine($"O jogo empatou!");
                 rodando = false;
             }
             JogoVelha.TrocaJogador(ref jogadorAtual);
