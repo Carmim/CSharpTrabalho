@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marcelo\\source\\repos\\CSharpTrabalho\\Financeiro\\Financeiro.csproj": {}
+    "C:\\Users\\Infoloc\\Source\\Repos\\CSharpTrabalho\\Financeiro\\Financeiro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marcelo\\source\\repos\\CSharpTrabalho\\Financeiro\\Financeiro.csproj": {
+    "C:\\Users\\Infoloc\\Source\\Repos\\CSharpTrabalho\\Financeiro\\Financeiro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcelo\\source\\repos\\CSharpTrabalho\\Financeiro\\Financeiro.csproj",
+        "projectUniqueName": "C:\\Users\\Infoloc\\Source\\Repos\\CSharpTrabalho\\Financeiro\\Financeiro.csproj",
         "projectName": "Financeiro",
-        "projectPath": "C:\\Users\\Marcelo\\source\\repos\\CSharpTrabalho\\Financeiro\\Financeiro.csproj",
-        "packagesPath": "C:\\Users\\Marcelo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marcelo\\source\\repos\\CSharpTrabalho\\Financeiro\\obj\\",
+        "projectPath": "C:\\Users\\Infoloc\\Source\\Repos\\CSharpTrabalho\\Financeiro\\Financeiro.csproj",
+        "packagesPath": "C:\\Users\\Infoloc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Infoloc\\Source\\Repos\\CSharpTrabalho\\Financeiro\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Marcelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Infoloc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

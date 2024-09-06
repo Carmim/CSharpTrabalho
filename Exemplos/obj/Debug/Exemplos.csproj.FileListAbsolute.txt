@@ -33,3 +33,10 @@ C:\Users\Marcelo\source\repos\CSharpTrabalho\Exemplos\obj\Debug\Exemplos.csproj.
 C:\Users\Marcelo\source\repos\CSharpTrabalho\Exemplos\obj\Debug\Exemplos.csproj.CoreCompileInputs.cache
 C:\Users\Marcelo\source\repos\CSharpTrabalho\Exemplos\obj\Debug\Exemplos.exe
 C:\Users\Marcelo\source\repos\CSharpTrabalho\Exemplos\obj\Debug\Exemplos.pdb
+C:\Users\Infoloc\Source\Repos\CSharpTrabalho\Exemplos\bin\Debug\Exemplos.exe.config
+C:\Users\Infoloc\Source\Repos\CSharpTrabalho\Exemplos\bin\Debug\Exemplos.exe
+C:\Users\Infoloc\Source\Repos\CSharpTrabalho\Exemplos\bin\Debug\Exemplos.pdb
+C:\Users\Infoloc\Source\Repos\CSharpTrabalho\Exemplos\obj\Debug\Exemplos.csproj.AssemblyReference.cache
+C:\Users\Infoloc\Source\Repos\CSharpTrabalho\Exemplos\obj\Debug\Exemplos.csproj.CoreCompileInputs.cache
+C:\Users\Infoloc\Source\Repos\CSharpTrabalho\Exemplos\obj\Debug\Exemplos.exe
+C:\Users\Infoloc\Source\Repos\CSharpTrabalho\Exemplos\obj\Debug\Exemplos.pdb

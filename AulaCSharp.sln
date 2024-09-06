@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Financeiro", "Financeiro\Fi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTrabalho", "TestTrabalho\TestTrabalho.csproj", "{35AF12C9-7EB2-498A-BB97-3E9C209C30F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jogo-da-velha", "jogo-da-velha\jogo-da-velha.csproj", "{BDB0A3D3-B038-493B-822F-262278F997D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jogo-da-velha", "jogo-da-velha\jogo-da-velha.csproj", "{BDB0A3D3-B038-493B-822F-262278F997D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JogoVelhaTest", "JogoVelhaTest\JogoVelhaTest.csproj", "{BCF70544-1996-47F9-B913-121D75EEAF9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{BDB0A3D3-B038-493B-822F-262278F997D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDB0A3D3-B038-493B-822F-262278F997D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDB0A3D3-B038-493B-822F-262278F997D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF70544-1996-47F9-B913-121D75EEAF9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF70544-1996-47F9-B913-121D75EEAF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF70544-1996-47F9-B913-121D75EEAF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF70544-1996-47F9-B913-121D75EEAF9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

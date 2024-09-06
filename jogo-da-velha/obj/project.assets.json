@@ -8,24 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Marcelo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Infoloc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marcelo\\source\\repos\\CSharpTrabalho\\jogo-da-velha\\jogo-da-velha.csproj",
+      "projectUniqueName": "C:\\Users\\Infoloc\\Source\\Repos\\CSharpTrabalho\\jogo-da-velha\\jogo-da-velha.csproj",
       "projectName": "jogo-da-velha",
-      "projectPath": "C:\\Users\\Marcelo\\source\\repos\\CSharpTrabalho\\jogo-da-velha\\jogo-da-velha.csproj",
-      "packagesPath": "C:\\Users\\Marcelo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marcelo\\source\\repos\\CSharpTrabalho\\jogo-da-velha\\obj\\",
+      "projectPath": "C:\\Users\\Infoloc\\Source\\Repos\\CSharpTrabalho\\jogo-da-velha\\jogo-da-velha.csproj",
+      "packagesPath": "C:\\Users\\Infoloc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Infoloc\\Source\\Repos\\CSharpTrabalho\\jogo-da-velha\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Marcelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Infoloc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

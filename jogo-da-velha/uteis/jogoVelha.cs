@@ -10,14 +10,14 @@ namespace Jogo_da_velha.uteis
 {
     public class JogoVelha
     {
-        public static void MostrarTabuleiro(char[,] tabuleiro)
+        public static string MostrarTabuleiro(char[,] tabuleiro)
         {
-            Console.Clear();
-            Console.WriteLine($" {tabuleiro[0, 0]} | {tabuleiro[0, 1]} | {tabuleiro[0, 2]}");
-            Console.WriteLine($"---+---+---");
-            Console.WriteLine($" {tabuleiro[1, 0]} | {tabuleiro[1, 1]} | {tabuleiro[1, 2]}");
-            Console.WriteLine($"---+---+---");
-            Console.WriteLine($" {tabuleiro[2, 0]} | {tabuleiro[2, 1]} | {tabuleiro[2, 2]}");
+            string tab = $" {tabuleiro[0, 0]} | {tabuleiro[0, 1]} | {tabuleiro[0, 2]}\n" +
+                $"---+---+---\n" +
+                $" {tabuleiro[1, 0]} | {tabuleiro[1, 1]} | {tabuleiro[1, 2]}\n" +
+                $"---+---+---\n" +
+                $" {tabuleiro[2, 0]} | {tabuleiro[2, 1]} | {tabuleiro[2, 2]}";
+            return tab;
         }
         public static bool VerificaPosicao(char[,] tabuleiro, int linha, int coluna, int escolha)
         {
@@ -40,24 +40,22 @@ namespace Jogo_da_velha.uteis
                 jogadorAtual = 1;
 
         }
-        public static void VerificaVencedor(char[,] tabuleiro, int jogadorAtual, ref bool rodando)
+        public static bool VerificaVencedor(char[,] tabuleiro, int jogadorAtual)
         {
-            if ((tabuleiro[0, 0] == tabuleiro[0, 1] && tabuleiro[0, 1] == tabuleiro[0, 2]) ||
-            (tabuleiro[1, 0] == tabuleiro[1, 1] && tabuleiro[1, 1] == tabuleiro[1, 2]) ||
-            (tabuleiro[2, 0] == tabuleiro[2, 1] && tabuleiro[2, 1] == tabuleiro[2, 2]) ||
-            (tabuleiro[0, 0] == tabuleiro[1, 0] && tabuleiro[1, 0] == tabuleiro[2, 0]) ||
-            (tabuleiro[0, 1] == tabuleiro[1, 1] && tabuleiro[1, 1] == tabuleiro[2, 1]) ||
-            (tabuleiro[0, 2] == tabuleiro[1, 2] && tabuleiro[1, 2] == tabuleiro[2, 2]) ||
-            (tabuleiro[0, 0] == tabuleiro[1, 1] && tabuleiro[1, 1] == tabuleiro[2, 2]) ||
-            (tabuleiro[0, 2] == tabuleiro[1, 1] && tabuleiro[1, 1] == tabuleiro[2, 0]))
-            {
-                MostrarTabuleiro(tabuleiro);
-                Console.WriteLine($"O jogador número {jogadorAtual} venceu!");
-                rodando = false;
-            }
+            bool ganhou = (tabuleiro[0, 0] == tabuleiro[0, 1] && tabuleiro[0, 1] == tabuleiro[0, 2]) ||
+                          (tabuleiro[1, 0] == tabuleiro[1, 1] && tabuleiro[1, 1] == tabuleiro[1, 2]) ||
+                          (tabuleiro[2, 0] == tabuleiro[2, 1] && tabuleiro[2, 1] == tabuleiro[2, 2]) ||
+                          (tabuleiro[0, 0] == tabuleiro[1, 0] && tabuleiro[1, 0] == tabuleiro[2, 0]) ||
+                          (tabuleiro[0, 1] == tabuleiro[1, 1] && tabuleiro[1, 1] == tabuleiro[2, 1]) ||
+                          (tabuleiro[0, 2] == tabuleiro[1, 2] && tabuleiro[1, 2] == tabuleiro[2, 2]) ||
+                          (tabuleiro[0, 0] == tabuleiro[1, 1] && tabuleiro[1, 1] == tabuleiro[2, 2]) ||
+                          (tabuleiro[0, 2] == tabuleiro[1, 1] && tabuleiro[1, 1] == tabuleiro[2, 0]);
+
+            return ganhou;
         }
-        public static void verificaEmpate(char[,] tabuleiro, ref bool rodando)
+        public static bool verificaEmpate(char[,] tabuleiro)
         {
+            bool empate;
             int contador = 0;
             foreach (char tab in tabuleiro)
             {
@@ -72,9 +70,13 @@ namespace Jogo_da_velha.uteis
             }
             if (contador == 9)
             {
-                MostrarTabuleiro(tabuleiro);
-                Console.WriteLine("O jogo empatou!");
-                rodando = false;
+                empate = true;
+                return empate;
+            }
+            else
+            {
+                empate = false;
+                return empate;
             }
         }
     }
