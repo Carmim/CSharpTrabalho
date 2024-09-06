@@ -10,9 +10,9 @@ namespace AulasPOO.uteis
     {
         public decimal calculaDesconto(decimal precoNormal, decimal desconto)
         {
-            if (desconto < 0)
+            if (desconto < 0 || desconto > 100)
             {
-                throw new ArgumentException("Não é possivel usar deconto negativo");
+                throw new ArgumentException("Entre com um desconto que esteja entre 0% e 100%");
             }
             else if (precoNormal < 0)
             {
