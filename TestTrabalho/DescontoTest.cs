@@ -54,4 +54,37 @@ namespace TestTrabalho
             Assert.ThrowsException<ArgumentException>(() => desc.calculaDesconto(precoNormal, desconto));
         }
     }
+
+    [TestClass]
+
+    public class TrianguloTests
+    {
+        [TestMethod]
+        public void TestaEquilatero()
+        {
+            //cenario
+            decimal lado1 = 5M;
+            decimal lado2 = 5M;
+            decimal lado3 = 5M;
+            string resultado;
+            //ação
+            resultado = Triangulos.VerTipoDoTriangulo(lado1, lado2, lado3);
+            //teste
+            Assert.AreEqual("Equilátero", resultado);
+        }
+        [TestMethod]
+        public void TestaIsosceles()
+        {
+            //cenario
+            decimal lado1 = 5M;
+            decimal lado2 = 5M;
+            decimal lado3 = 8M;
+            string resultado;
+            //ação
+            resultado = Triangulos.VerTipoDoTriangulo(lado1, lado2, lado3);
+            //teste
+            Assert.AreEqual("Isósceles", resultado);
+        }
+
+    }
 }
