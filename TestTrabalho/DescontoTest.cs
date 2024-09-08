@@ -85,6 +85,11 @@ namespace TestTrabalho
             //teste
             Assert.AreEqual("Isósceles", resultado);
         }
+        [TestMethod]
+        public void TestaSeETriangulo()
+        {
+            //olha agr gripp
+        }
 
     }
 }
