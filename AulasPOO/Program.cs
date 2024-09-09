@@ -14,6 +14,7 @@ do
     Console.WriteLine("5) Dividir");
     Console.WriteLine("6) Calcular desconto");
     Console.WriteLine("7) Verificar triangulo");
+    Console.WriteLine("8) Converter metros para milímetros");
     Console.WriteLine("0) Sair");
     opcao = Convert.ToInt32(Console.ReadLine());
 
@@ -53,9 +54,9 @@ do
             {
                 var des = new Desconto();
                 Console.WriteLine("Entre com o preço do produto: ");
-                precoOriginal = decimal.Parse(Console.ReadLine(),CultureInfo.CurrentCulture);
+                precoOriginal = decimal.Parse(Console.ReadLine(), CultureInfo.CurrentCulture);
                 Console.WriteLine("Entre com o desconto: ");
-                desconto = decimal.Parse(Console.ReadLine(),CultureInfo.CurrentCulture);
+                desconto = decimal.Parse(Console.ReadLine(), CultureInfo.CurrentCulture);
                 resultadoDesconto = des.calculaDesconto(precoOriginal, desconto);
                 resultadoDesconto = Math.Round(resultadoDesconto, 2);
                 if (resultadoDesconto == precoOriginal)
@@ -81,6 +82,12 @@ do
             {
                 Console.WriteLine($"Erro: {ex.Message}");
             }
+            break;
+        case 8:
+            Console.WriteLine("Insira a quantidade de metros:");
+            decimal metros = decimal.Parse(Console.ReadLine());
+            decimal milimetro = Calculadora.ConvertMetroMilimetro(metros);
+            Console.WriteLine($"{metros} metros são {milimetro} milímetros");
             break;
         default:
             Console.WriteLine("Opção Inválida");

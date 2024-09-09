@@ -38,5 +38,11 @@ namespace AulasPOO.uteis
         {
             return  peso/(altura * altura);
         }
+        
+        public static decimal ConvertMetroMilimetro(decimal metro)
+        {
+            return metro * 1000;
+        }
+
     }
 }
