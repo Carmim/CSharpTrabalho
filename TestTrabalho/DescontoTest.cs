@@ -55,6 +55,7 @@ namespace TestTrabalho
         }
     }
 
+// Para o triangulo
     [TestClass]
 
     public class TrianguloTests
@@ -63,35 +64,35 @@ namespace TestTrabalho
         public void TestaEquilatero()
         {
             //cenario
-            decimal lado1 = 5M;
-            decimal lado2 = 5M;
-            decimal lado3 = 5M;
+            int lado1 = 5;
+            int lado2 = 5;
+            int lado3 = 5;
             string resultado;
             //ação
             resultado = Triangulos.VerTipoDoTriangulo(lado1, lado2, lado3);
             //teste
-            Assert.AreEqual("Equilátero", resultado);
+            Assert.AreEqual("Equilatero", resultado);
         }
         [TestMethod]
         public void TestaIsosceles()
         {
             //cenario
-            decimal lado1 = 5M;
-            decimal lado2 = 5M;
-            decimal lado3 = 8M;
+            int lado1 = 5;
+            int lado2 = 5;
+            int lado3 = 8;
             string resultado;
             //ação
             resultado = Triangulos.VerTipoDoTriangulo(lado1, lado2, lado3);
             //teste
-            Assert.AreEqual("Isósceles", resultado);
+            Assert.AreEqual("Isosceles", resultado);
         }
         [TestMethod]
         public void TestaSeNaoETriangulo()
         {
             //cenario
-            decimal lado1 = 0M;
-            decimal lado2 = 2M;
-            decimal lado3 = 3M;
+            int lado1 = 0;
+            int lado2 = 2;
+            int lado3 = 3;
             //ação e teste
             Assert.ThrowsException<ArgumentException>(() => Triangulos.VerTipoDoTriangulo(lado1, lado2, lado3)); 
         }
@@ -100,9 +101,9 @@ namespace TestTrabalho
         public void TestaEscaleno()
         {
             //cenario
-            decimal lado1 = 5M;
-            decimal lado2 = 6M;
-            decimal lado3 = 7M;
+            int lado1 = 5;
+            int lado2 = 6;
+            int lado3 = 7;
             string resultado;
             //ação
             resultado = Triangulos.VerTipoDoTriangulo(lado1, lado2, lado3);

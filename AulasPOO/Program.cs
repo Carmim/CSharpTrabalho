@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AulasPOO.uteis;
 using System.Globalization;
-int opcao = 0, num1, num2, num3;
+int opcao = 0, num1, num2, num3, lado1, lado2, lado3;
 decimal precoOriginal, desconto, resultadoDesconto;
 
 do
@@ -13,6 +13,7 @@ do
     Console.WriteLine("4) Subtrair");
     Console.WriteLine("5) Dividir");
     Console.WriteLine("6) Calcular desconto");
+    Console.WriteLine("7) Verificar triangulo");
     Console.WriteLine("0) Sair");
     opcao = Convert.ToInt32(Console.ReadLine());
 
@@ -70,6 +71,17 @@ do
                 Console.WriteLine($"Erro: {ex.Message}");
             }
             break;
+        case 7:
+            try
+            {
+                LerTresNumerosInteiros();
+                Console.WriteLine($"Os números {lado1}, {lado2} e {lado3} formam o triangulo {Triangulos.VerTipoDoTriangulo(lado1,lado2,lado3)}");
+            }
+            catch (ArgumentException ex)
+            {
+                Console.WriteLine($"Erro: {ex.Message}");
+            }
+            break;
 
         default:
             Console.WriteLine("Opção Inválida");
@@ -83,4 +95,14 @@ void LerDoisNumerosInteiros()
     num1 = int.Parse(Console.ReadLine());
     Console.WriteLine("Informe o segundo numero");
     num2 = int.Parse(Console.ReadLine());
+}
+
+void LerTresNumerosInteiros()
+{
+    Console.WriteLine("Informe o primeiro numero");
+    lado1 = int.Parse(Console.ReadLine());
+    Console.WriteLine("Informe o segundo numero");
+    lado2 = int.Parse(Console.ReadLine());
+    Console.WriteLine("Informe o terceiro numero");
+    lado3 = int.Parse(Console.ReadLine());
 }

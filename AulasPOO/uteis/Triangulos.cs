@@ -8,12 +8,12 @@ namespace AulasPOO.uteis
 {
     public class Triangulos
     {
-        public static string VerTipoDoTriangulo(decimal lado1, decimal lado2, decimal lado3)
+        public static string VerTipoDoTriangulo(int lado1, int lado2, int lado3)
         {
-            if (lado1 <= 0 || lado2 <= 0 || lado3 <= 0)
-                //|| lado1 + lado2 <= lado3
-                //|| lado2 + lado3 <= lado1
-                //|| lado1 + lado3 <= lado2)
+            if (lado1 <= 0 || lado2 <= 0 || lado3 <= 0
+                || lado1 + lado2 <= lado3
+                || lado2 + lado3 <= lado1
+                || lado1 + lado3 <= lado2)
             {
                 throw new ArgumentException(" Os numeros inseridos não formam um triangulo");
             }
@@ -21,11 +21,11 @@ namespace AulasPOO.uteis
             {
                 if (lado1 == lado2 && lado2 == lado3)
                 {
-                    return "Equilátero";
+                    return "Equilatero";
                 }
                 else if (lado1 == lado2 || lado2 == lado3 || lado1 == lado3)
                 {
-                    return "Isósceles";
+                    return "Isosceles";
                 }
                 else
                 {
