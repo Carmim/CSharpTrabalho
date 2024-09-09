@@ -82,7 +82,6 @@ do
                 Console.WriteLine($"Erro: {ex.Message}");
             }
             break;
-
         default:
             Console.WriteLine("Opção Inválida");
             break;

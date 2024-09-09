@@ -21,7 +21,7 @@ namespace Jogo_da_velha.uteis
         }
         public static bool VerificaPosicao(char[,] tabuleiro, int linha, int coluna, int escolha)
         {
-            if (tabuleiro[linha, coluna] != 'X' && tabuleiro[linha, coluna] != 'O' && escolha < 10)
+            if (tabuleiro[linha, coluna] != 'X' && tabuleiro[linha, coluna] != 'O' && escolha < 10 && escolha > 0)
             {
                 return true;
             }
@@ -55,7 +55,6 @@ namespace Jogo_da_velha.uteis
         }
         public static bool verificaEmpate(char[,] tabuleiro)
         {
-            bool empate;
             int contador = 0;
             foreach (char tab in tabuleiro)
             {
@@ -70,13 +69,11 @@ namespace Jogo_da_velha.uteis
             }
             if (contador == 9)
             {
-                empate = true;
-                return empate;
+                return true;
             }
             else
             {
-                empate = false;
-                return empate;
+                return false;
             }
         }
     }

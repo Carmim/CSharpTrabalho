@@ -4,7 +4,7 @@ namespace Jogo_da_velha.uteis.Tests
     public class JogoVelhaTests
     {
         [TestMethod]
-        public void VerificaPosicao_PosicaoVaziaEEscolhaMenorQue10()
+        public void VerificaPosicao_PosicaoVazia()
         {
             int linha = 1;
             int coluna = 1;
@@ -37,11 +37,11 @@ namespace Jogo_da_velha.uteis.Tests
         }
 
         [TestMethod]
-        public void VerificaPosicao_EscolhaMaiorOuIgualA10()
+        public void VerificaPosicao_EscolhaEntre1e9()
         {
             int linha = 0;
             int coluna = 0;
-            int escolha = 10;
+            int escolha = 0;
             char[,] tabuleiro = {
                 { ' ', ' ', ' ' },
                 { ' ', ' ', ' ' },
@@ -71,7 +71,7 @@ namespace Jogo_da_velha.uteis.Tests
         public void VerificaVencedor_JogoComVencedor()
         {
             char[,] tabuleiro = {
-                { 'X', 'X', 'X' },
+                { 'O', 'X', 'X' },
                 { ' ', 'O', ' ' },
                 { ' ', ' ', 'O' }
             };
@@ -88,9 +88,8 @@ namespace Jogo_da_velha.uteis.Tests
                 { 'X', 'X', 'O' },
                 { 'O', 'X', 'O' }
             };
-            bool rodando = true;
             JogoVelha.verificaEmpate(tabuleiro);
-            Assert.IsTrue(rodando);
+            Assert.IsTrue(JogoVelha.verificaEmpate(tabuleiro));
         }
 
         [TestMethod]

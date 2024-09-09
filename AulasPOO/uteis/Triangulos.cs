@@ -21,11 +21,11 @@ namespace AulasPOO.uteis
             {
                 if (lado1 == lado2 && lado2 == lado3)
                 {
-                    return "Equilatero";
+                    return "Equilátero";
                 }
                 else if (lado1 == lado2 || lado2 == lado3 || lado1 == lado3)
                 {
-                    return "Isosceles";
+                    return "Isósceles";
                 }
                 else
                 {
