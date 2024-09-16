@@ -110,48 +110,5 @@ namespace TestTrabalho
             //teste
             Assert.AreEqual("Escaleno", resultado);
         }
-
-        //[TestMethod]
-        //public void TestaRetangulo()
-        //{
-        //    //cenario
-        //    decimal lado1 = 3M;
-        //    decimal lado2 = 4M;
-        //    decimal lado3 = 5M;
-        //    string resultado;
-        //    //ação
-        //    resultado = Triangulos.VerTipoDoTriangulo(lado1, lado2, lado3);
-        //    //teste
-        //    Assert.AreEqual("Retângulo", resultado);
-        //}
-        //[TestMethod]
-        //public void TestaObtusangulo()
-        //{
-        //    //cenario
-        //    decimal lado1 = 6M;
-        //    decimal lado2 = 8M;
-        //    decimal lado3 = 10M;
-        //    string resultado;
-        //    //ação
-        //    resultado = Triangulos.VerTipoDoTriangulo(lado1, lado2, lado3);
-        //    //teste
-        //    Assert.AreEqual("Obtusângulo", resultado);
-        //}
-        
-        //[TestMethod]
-        //public void TestaAcutangulo()
-        //{
-        //    //cenario
-        //    decimal lado1 = 5M;
-        //    decimal lado2 = 6M;
-        //    decimal lado3 = 7M;
-        //    string resultado;
-        //    //ação
-        //    resultado = Triangulos.VerTipoDoTriangulo(lado1, lado2, lado3);
-        //    //teste
-        //    Assert.AreEqual("Acutângulo", resultado);
-            
-            
-        //}
     }
 }

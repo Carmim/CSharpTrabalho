@@ -64,7 +64,7 @@ do
                     Console.WriteLine($"Com o desconto de {desconto}%, o valor do produto não sofreu alterações");
                     break;
                 }
-                Console.WriteLine($"O produto com preço R${precoOriginal} passou a valer R${resultadoDesconto} com o desconto de {desconto}%. ");
+                Console.WriteLine($"O produto com preço R${precoOriginal:F2} passou a valer R${resultadoDesconto:F2} com o desconto de {desconto}%. ");
             }
 
             catch (ArgumentException ex)
