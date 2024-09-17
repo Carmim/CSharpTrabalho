@@ -96,6 +96,16 @@ namespace TestTrabalho
             //ação e teste
             Assert.ThrowsException<ArgumentException>(() => Triangulos.VerTipoDoTriangulo(lado1, lado2, lado3)); 
         }
+        [TestMethod]
+        public void TestaLadosNaoFormamTriangulo()
+        {
+            //cenario
+            int lado1 = 1;
+            int lado2 = 2;
+            int lado3 = 3;
+            //ação e teste
+            Assert.ThrowsException<ArgumentException>(() => Triangulos.VerTipoDoTriangulo(lado1, lado2, lado3));
+        }
 
         [TestMethod]
         public void TestaEscaleno()

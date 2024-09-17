@@ -1085,19 +1085,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Infoloc\\.nuget\\packages\\": {}
+    "C:\\Users\\gabri\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Infoloc\\source\\repos\\Agoravai\\TestProject1\\TestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\AulaCSharp\\TestProject1\\TestProject1.csproj",
       "projectName": "TestProject1",
-      "projectPath": "C:\\Users\\Infoloc\\source\\repos\\Agoravai\\TestProject1\\TestProject1.csproj",
-      "packagesPath": "C:\\Users\\Infoloc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Infoloc\\source\\repos\\Agoravai\\TestProject1\\obj\\",
+      "projectPath": "C:\\Users\\gabri\\source\\repos\\AulaCSharp\\TestProject1\\TestProject1.csproj",
+      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gabri\\source\\repos\\AulaCSharp\\TestProject1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Infoloc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1105,15 +1110,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Infoloc\\source\\repos\\Agoravai\\AulasPOO\\AulasPOO.csproj": {
-              "projectPath": "C:\\Users\\Infoloc\\source\\repos\\Agoravai\\AulasPOO\\AulasPOO.csproj"
+            "C:\\Users\\gabri\\source\\repos\\AulaCSharp\\AulasPOO\\AulasPOO.csproj": {
+              "projectPath": "C:\\Users\\gabri\\source\\repos\\AulaCSharp\\AulasPOO\\AulasPOO.csproj"
             }
           }
         }
