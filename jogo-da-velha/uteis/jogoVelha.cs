@@ -53,16 +53,12 @@ namespace Jogo_da_velha.uteis
 
             return ganhou;
         }
-        public static bool verificaEmpate(char[,] tabuleiro)
+        public static bool VerificaEmpate(char[,] tabuleiro)
         {
             int contador = 0;
             foreach (char tab in tabuleiro)
             {
-                if (tab == 'X')
-                {
-                    contador++;
-                }
-                else if (tab == 'O')
+                if (tab == 'X' || tab == 'O')
                 {
                     contador++;
                 }

@@ -71,7 +71,7 @@ namespace TestTrabalho
             //ação
             resultado = Triangulos.VerTipoDoTriangulo(lado1, lado2, lado3);
             //teste
-            Assert.AreEqual("Equilatero", resultado);
+            Assert.AreEqual("Equilátero", resultado);
         }
         [TestMethod]
         public void TestaIsosceles()
@@ -84,7 +84,7 @@ namespace TestTrabalho
             //ação
             resultado = Triangulos.VerTipoDoTriangulo(lado1, lado2, lado3);
             //teste
-            Assert.AreEqual("Isosceles", resultado);
+            Assert.AreEqual("Isósceles", resultado);
         }
         [TestMethod]
         public void TestaSeNaoETriangulo()

@@ -88,8 +88,8 @@ namespace Jogo_da_velha.uteis.Tests
                 { 'X', 'X', 'O' },
                 { 'O', 'X', 'O' }
             };
-            JogoVelha.verificaEmpate(tabuleiro);
-            Assert.IsTrue(JogoVelha.verificaEmpate(tabuleiro));
+            JogoVelha.VerificaEmpate(tabuleiro);
+            Assert.IsTrue(JogoVelha.VerificaEmpate(tabuleiro));
         }
 
         [TestMethod]

@@ -66,7 +66,7 @@ while (rodando)
     if (JogoVelha.VerificaPosicao(tabuleiro, linha, coluna, escolha))
     {
         tabuleiro[linha, coluna] = simbolo;
-        if (JogoVelha.VerificaVencedor(tabuleiro, jogadorAtual) == true)
+        if (JogoVelha.VerificaVencedor(tabuleiro, jogadorAtual))
         {
             Console.Clear();
             Console.WriteLine(JogoVelha.MostrarTabuleiro(tabuleiro));
@@ -75,7 +75,7 @@ while (rodando)
         }
         else
         {
-            if (JogoVelha.verificaEmpate(tabuleiro))
+            if (JogoVelha.VerificaEmpate(tabuleiro))
             {
                 Console.Clear();
                 Console.WriteLine(JogoVelha.MostrarTabuleiro(tabuleiro));

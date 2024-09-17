@@ -47,3 +47,10 @@ C:\Users\Infoloc\source\repos\TrabC#\Exemplos\obj\Debug\Exemplos.csproj.Assembly
 C:\Users\Infoloc\source\repos\TrabC#\Exemplos\obj\Debug\Exemplos.csproj.CoreCompileInputs.cache
 C:\Users\Infoloc\source\repos\TrabC#\Exemplos\obj\Debug\Exemplos.exe
 C:\Users\Infoloc\source\repos\TrabC#\Exemplos\obj\Debug\Exemplos.pdb
+C:\Users\Infoloc\source\repos\Agoravai\Exemplos\bin\Debug\Exemplos.exe.config
+C:\Users\Infoloc\source\repos\Agoravai\Exemplos\bin\Debug\Exemplos.exe
+C:\Users\Infoloc\source\repos\Agoravai\Exemplos\bin\Debug\Exemplos.pdb
+C:\Users\Infoloc\source\repos\Agoravai\Exemplos\obj\Debug\Exemplos.csproj.AssemblyReference.cache
+C:\Users\Infoloc\source\repos\Agoravai\Exemplos\obj\Debug\Exemplos.csproj.CoreCompileInputs.cache
+C:\Users\Infoloc\source\repos\Agoravai\Exemplos\obj\Debug\Exemplos.exe
+C:\Users\Infoloc\source\repos\Agoravai\Exemplos\obj\Debug\Exemplos.pdb
